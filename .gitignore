@@ -1,0 +1,13 @@
+# Compiled binaries
+pnkzf
+*.out
+*.exe
+*.o
+*.obj
+
+# Debugging symbols & builds
+*.dSYM/
+
+# OS specific files
+.DS_Store
+Thumbs.db
