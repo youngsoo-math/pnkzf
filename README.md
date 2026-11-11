@@ -16,10 +16,22 @@ clang -O3 -march=native -o pnkzf pnkzf.c -lm
 ## Usage
 
 ```bash
-./pnkzf <k> <n>
+./pnkzf <k> <n> [checkpoint_file]
 ```
 
 > **Note**: Parameters are ordered `k` then `n`, requiring $k \ge 2$, $n > 2k$, and $2n < 128$.
+
+With a `checkpoint_file`, the search position is saved there every 5 minutes (and after each finished size $s$). If the file already exists, the run resumes from it, so a restart loses at most 5 minutes of work.
+
+### Batch runs (Windows)
+
+`run_all.ps1` runs several $n$ in parallel, largest first, at below-normal CPU priority, with a checkpoint per run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\run_all.ps1 -K 5 -NMax 55 -NMin 48 -MaxParallel 5
+```
+
+The final output goes to `results\k<K>\n<n>.txt`. Live progress goes to `results\k<K>\progress\n<n>.progress.txt`, and `results\k<K>\status.txt` gives an overview with ETAs. Running the same command again resumes an interrupted batch.
 
 ### Example: Petersen Graph $P(5,2)$
 
