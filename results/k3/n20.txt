@@ -1,0 +1,9 @@
+P(20,3): 40 vertices (3-regular). Computing Z(P(20,3))...
+  1 (0.0%)...
+s = 8 WORKS (1 candidates, 0s).
+  3289755 (100.0%)...
+s = 7 fails (3289755 candidates, 1s).
+
+Z(P(20,3)) = 8
+zero forcing set: { u0 u1 u2 u3 u4 u5 u6 u7 }
+(total time: 1s)

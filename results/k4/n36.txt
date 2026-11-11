@@ -1,0 +1,9 @@
+P(36,4): 72 vertices (3-regular). Computing Z(P(36,4))...
+  1 (0.0%)...
+s = 10 WORKS (1 candidates, 0s).
+  10662661460 (100.0%)...
+s = 9 fails (10662661460 candidates, 458s).
+
+Z(P(36,4)) = 10
+zero forcing set: { u0 u1 u2 u3 u4 u5 u6 u7 u8 u9 }
+(total time: 458s)

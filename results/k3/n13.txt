@@ -1,0 +1,9 @@
+P(13,3): 26 vertices (3-regular). Computing Z(P(13,3))...
+  1 (0.0%)...
+s = 8 WORKS (1 candidates, 0s).
+  178024 (100.0%)...
+s = 7 fails (178024 candidates, 0s).
+
+Z(P(13,3)) = 8
+zero forcing set: { u0 u1 u2 u3 u4 u5 u6 u7 }
+(total time: 0s)

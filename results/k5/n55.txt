@@ -1,0 +1,10 @@
+P(55,5): 110 vertices (3-regular). Computing Z(P(55,5))...
+(resumed from checkpoint after 364800s of earlier work)
+  1 (0.0%)...
+s = 12 WORKS (1 candidates, 0s).
+  42658145825880 (100.0%)...
+s = 11 fails (42658145825880 candidates, 1894055s).
+
+Z(P(55,5)) = 12
+zero forcing set: { u0 u1 u2 u3 u4 u5 u6 u7 u8 u9 u10 u11 }
+(total time: 1894055s)

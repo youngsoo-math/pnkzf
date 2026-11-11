@@ -1,0 +1,9 @@
+P(10,2): 20 vertices (3-regular). Computing Z(P(10,2))...
+  1 (0.0%)...
+s = 6 WORKS (1 candidates, 0s).
+  4002 (100.0%)...
+s = 5 fails (4002 candidates, 0s).
+
+Z(P(10,2)) = 6
+zero forcing set: { u0 u1 u2 u3 u4 u5 }
+(total time: 0s)
