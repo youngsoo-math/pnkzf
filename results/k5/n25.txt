@@ -1,0 +1,6 @@
+P(25,5): 50 vertices (3-regular). Computing Z(P(25,5))...
+s = 12 WORKS (1 candidates, 0s).
+s = 11 fails (8219783792 candidates, 382s).
+Z(P(25,5)) = 12
+zero forcing set: { u0 u1 u2 u3 u4 u5 u6 u7 u8 u9 u10 u11 }
+(total time: 382s)

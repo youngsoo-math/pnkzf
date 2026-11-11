@@ -1,0 +1,12 @@
+P(11,5): 22 vertices (3-regular). Computing Z(P(11,5))...
+s = 12 WORKS (1 candidates, 0s).
+s = 11 WORKS (1 candidates, 0s).
+s = 10 WORKS (1 candidates, 0s).
+s = 9 WORKS (1 candidates, 0s).
+s = 8 WORKS (1 candidates, 0s).
+s = 7 WORKS (12 candidates, 0s).
+s = 6 WORKS (13 candidates, 0s).
+s = 5 fails (6195 candidates, 0s).
+Z(P(11,5)) = 6
+zero forcing set: { u0 u1 u2 u3 u4 v6 }
+(total time: 0s)

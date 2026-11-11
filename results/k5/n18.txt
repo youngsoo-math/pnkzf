@@ -1,0 +1,8 @@
+P(18,5): 36 vertices (3-regular). Computing Z(P(18,5))...
+s = 12 WORKS (1 candidates, 0s).
+s = 11 WORKS (1 candidates, 0s).
+s = 10 WORKS (4 candidates, 0s).
+s = 9 fails (23560130 candidates, 2s).
+Z(P(18,5)) = 10
+zero forcing set: { u0 u1 u2 u3 u4 u5 u6 u7 u8 u12 }
+(total time: 2s)
